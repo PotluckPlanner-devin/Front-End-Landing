@@ -1,4 +1,7 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   border-top: 5px solid #494949;
   background-color:  #C8F7EA;
@@ -11,9 +14,11 @@
   }
   .footerNav {
     display        : flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
     width          : 40%;
-
+    margin-bottom: 2%;
+ 
     .NavLink {
         text-decoration: none;
         color          : #494949;

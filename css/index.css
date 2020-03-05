@@ -140,6 +140,8 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -207,6 +209,9 @@ header .title {
   }
 }
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   border-top: 5px solid #494949;
   background-color: #C8F7EA;
@@ -219,8 +224,10 @@ header .title {
 }
 .footer .footerNav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
   width: 40%;
+  margin-bottom: 2%;
 }
 .footer .footerNav .NavLink {
   text-decoration: none;
@@ -240,6 +247,7 @@ header .title {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 2%;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -294,7 +302,7 @@ header .title {
   height: 45px;
   font-size: 2rem;
   border-radius: 10px;
-  color: #F99E27;
+  color: #494949;
 }
 .home .content-pick .btn {
   text-align: center;
@@ -330,35 +338,76 @@ header .title {
 .About {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
   flex-wrap: wrap;
+  border: 15px solid #494949;
 }
 .About-Devin {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
 }
 .About-Conner {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
 }
 .About-Amos {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
 }
 .About-Michael {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
 }
 .About-Steven {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
 }
 .About-Lisa {
   display: flex;
   flex-direction: column;
   width: 30%;
+  border: 5px solid #494949;
+  padding: 2px;
+}
+@media (max-width:500px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .About-Devin {
+    width: 90%;
+  }
+  .About-Conner {
+    width: 90%;
+  }
+  .About-Amos {
+    width: 90%;
+  }
+  .About-Michael {
+    width: 90%;
+  }
+  .About-Steven {
+    width: 90%;
+  }
+  .About-Lisa {
+    width: 90%;
+  }
 }
