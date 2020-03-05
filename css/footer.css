@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  border-top: 5px solid #494949;
+  background-color: #C8F7EA;
+}
+.footer p {
+  text-align: center;
+  color: #494949;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+.footer .footerNav {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+.footer .footerNav .NavLink {
+  text-decoration: none;
+  color: #494949;
+  font-size: 1.5em;
+}
