@@ -1,15 +1,14 @@
 // Mixins in here
 
 
-.buttonStyle(@background-color, @color) {
+.buttonStyle(@background-color: #4BBC51, @color: #F99E27) {
     display         : flex;
-    background-color: #4BBC51;
+    background-color: @background-color;
     width           : 100%;
     height          : 45px;
     font-size       : 2rem;
     border-radius   : 10px;
-    color           : #F99E27;
-
+    color           : @color;
 }
 
 
